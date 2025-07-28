@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    
+
+            <!-- Nav Bar Start -->
+            <div class="nav-bar">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                         <div class="col-lg-4 col-md-4">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="img/logo1.jpg" alt="Logo" style="width: 80px; height: auto; margin: 10px; transform: scale(1.4);" >
+                                </a> 
+                                <label style="font-style:oblique; font-weight: bold; color: white;">Sathya's Construction</label>                               
+                            </div>                           
+                        </div>
+                        <a href="#" class="navbar-brand">MENU</a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto">
+                                <a href="index.html" class="nav-item nav-link">Home</a>
+                                <a href="about.html" class="nav-item nav-link">About</a>
+                                <a href="service.html" class="nav-item nav-link">Service</a>                                
+                                <a href="portfolio.html" class="nav-item nav-link">Projects</a>                                
+                                <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                            </div>
+                            
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- Nav Bar End -->
+            
+            
+            <!-- Page Header Start -->
+            <div class="page-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Contact Us</h2>
+                        </div>
+                        <div class="col-12">
+                            <a href="">Home</a>
+                            <a href="">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Page Header End -->
+
+
+            <!-- Contact Start -->
+            <div class="contact wow fadeInUp">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <p>Get In Touch</p>
+                        <h2>For Any Query</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <i class="flaticon-address"></i>
+                                    <div class="contact-text">
+                                        <h2>Location</h2>
+                                        <p>Main Street, Chennai-600028</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="flaticon-call"></i>
+                                    <div class="contact-text">
+                                        <h2>Phone</h2>
+                                        <p>+444 271 263</p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="flaticon-send-mail"></i>
+                                    <div class="contact-text">
+                                        <h2>Email</h2>
+                                        <p>sathya@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="contact-form">
+                                <div id="success"></div>
+                                <form  id="contact-form">
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="email" class="form-control" id="user_email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div>
+                                        
+                                        <button class="btn" type="submit">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+    </form>
+            </div>
+            <!-- Contact End -->
+
+
+            <!-- Footer Start -->
+              <div class="footer wow fadeIn" data-wow-delay="0.3s">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="footer-contact">
+                                <h2>Office Contact</h2>
+                                <p>Main Street, Chennai-600028</p>
+                                <p>+444 271 263</p>
+                                
+                                <p>sathya@gmail.com</p>
+                                <div class="footer-social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>                                    
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="footer-link">
+                                <h2>Services Areas</h2>
+                                <a href="">Building Construction</a>
+                                <a href="">House Renovation</a>
+                                <a href="">Architecture Design</a>
+                                <a href="">Interior Design</a>
+                                <a href="">Painting</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="footer-link">
+                                <h2>Useful Pages</h2>
+                                <a href="">About Us</a>
+                                <a href="">Contact Us</a>                                
+                                <a href="">Projects</a>
+                                
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+           </div>
+            <!-- Footer End -->
+
+            <a href="#" class="back-to-top"></a>
+        </div>
+         <script type="text/javascript">
+        (function() {
+            emailjs.init({
+                publicKey: 'D1corwTzhl2-7UqHe', 
+            });
+        })();
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault(); 
+
+        emailjs.sendForm('service_o7iqjou', 'template_dz6k43d', this)
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                alert('Email sent successfully!');
+            }, function(error) {
+                console.error('FAILED...', error);
+                alert('Failed to send email. Please try again.');
+            });
+    });
+    </script>
+</body>
+</html>
